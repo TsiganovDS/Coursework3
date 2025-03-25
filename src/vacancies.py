@@ -1,9 +1,93 @@
 import json
+import os
 
 import psycopg2
-import requests
+from dotenv import load_dotenv
 
 from src.api import hh_api
+
+load_dotenv("../.env")
+DB_CONFIG = {
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv("DB_HOST"),
+}
+
+
+def drop_tables():
+    """Функция удаления таблиц"""
+    with psycopg2.connect(**DB_CONFIG) as conn:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                 DROP TABLE IF EXISTS vacancies, employers CASCADE;
+                 """
+            )
+
+
+def create_tables():
+    """Функция создания таблиц"""
+    drop_tables()
+    with psycopg2.connect(**DB_CONFIG) as conn:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+            CREATE TABLE IF NOT EXISTS employers (
+                id SERIAL PRIMARY KEY,
+                name VARCHAR(255) NOT NULL,
+                url VARCHAR(255)
+            );
+            """
+            )
+
+            cursor.execute(
+                """
+            CREATE TABLE IF NOT EXISTS vacancies (
+                id SERIAL PRIMARY KEY,
+                title VARCHAR(255) NOT NULL,
+                employer_id INTEGER REFERENCES employers(id),
+                salary_from INTEGER,
+                salary_to INTEGER,
+                url VARCHAR(255)
+            );
+            """
+            )
+
+
+def insert_data(employers_data, vacancies):
+    """Функция заполнения таблиц"""
+    with psycopg2.connect(**DB_CONFIG) as conn:
+        with conn.cursor() as cursor:
+            for employer in employers_data:
+                cursor.execute(
+                    "INSERT INTO employers (id, name, url) "
+                    "VALUES (%s, %s, %s) "
+                    "ON CONFLICT (id) DO NOTHING "
+                    "RETURNING id",
+                    (employer["id"], employer["name"], employer["url"]),
+                )
+                employer_id = employer["id"]
+
+                for vacancy in vacancies:
+                    if vacancy.get("employer", {}).get("name") != employer["name"]:
+                        continue
+
+                    salary_data = vacancy.get("salary") or {}
+                    cursor.execute(
+                        """INSERT INTO vacancies
+                        (title, employer_id, salary_from, salary_to, url)
+                        VALUES (%s, %s, %s, %s, %s)""",
+                        (
+                            vacancy["name"],
+                            employer_id,
+                            salary_data.get("from"),
+                            salary_data.get("to"),
+                            vacancy["alternate_url"],
+                        ),
+                    )
+            conn.commit()
+
 
 def save_to_json():
     """Функция записи в JSON-файл"""
@@ -30,110 +114,3 @@ def save_to_json():
                 }
             )
         json.dump(vacancies_to_save, f, indent=4, ensure_ascii=False)
-
-
-save_to_json()
-
-
-def drop_tables():
-    """Функция удаления таблиц"""
-    conn = psycopg2.connect(
-        dbname="hh.ru", user="postgres", password="1234", host="localhost"
-    )
-    cursor = conn.cursor()
-
-    cursor.execute("""
-            DROP TABLE IF EXISTS
-                vacancies,
-                employers
-            CASCADE;
-        """)
-
-    conn.commit()
-    cursor.close()
-    conn.close()
-
-
-def create_tables():
-    """Функция создания таблиц"""
-    drop_tables()
-    conn = psycopg2.connect(
-        dbname="hh.ru", user="postgres", password="1234", host="localhost"
-    )
-    cursor = conn.cursor()
-
-    cursor.execute(
-        """
-    CREATE TABLE IF NOT EXISTS employers (
-        id SERIAL PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
-        url VARCHAR(255)
-    );
-    """
-    )
-
-    cursor.execute(
-        """
-    CREATE TABLE IF NOT EXISTS vacancies (
-        id SERIAL PRIMARY KEY,
-        title VARCHAR(255) NOT NULL,
-        employer_id INTEGER REFERENCES employers(id),
-        salary_from INTEGER,
-        salary_to INTEGER,
-        url VARCHAR(255)
-    );
-    """
-    )
-
-    conn.commit()
-    cursor.close()
-    conn.close()
-
-
-def insert_data(employers_data, vacancies):
-    """Функция заполнения таблиц"""
-    conn = psycopg2.connect(
-        dbname="hh.ru", user="postgres", password="1234", host="localhost"
-    )
-    cursor = conn.cursor()
-
-    for employer in employers_data:
-        cursor.execute("SELECT id FROM employers WHERE id = %s", (employer["id"],))
-        existing_employer = cursor.fetchone()
-
-        if not existing_employer:
-            cursor.execute(
-                "INSERT INTO employers (name, url, id) VALUES (%s, %s, %s) RETURNING id",
-                (employer["name"], employer["url"], employer["id"]),
-            )
-            employer_id = cursor.fetchone()[0]
-        else:
-            employer_id = existing_employer[0]
-
-        for vacancy in vacancies:
-            if "employer" not in vacancy:
-                continue
-
-            if vacancy["employer"]["name"] == employer["name"]:
-                salary_data = vacancy.get("salary") or {}
-                cursor.execute(
-                    """INSERT INTO vacancies
-                    (title, employer_id, salary_from, salary_to, url)
-                    VALUES (%s, %s, %s, %s, %s)""",
-                    (
-                        vacancy["name"],
-                        employer_id,
-                        salary_data.get("from"),
-                        salary_data.get("to"),
-                        vacancy["alternate_url"],
-                    ),
-                )
-
-    conn.commit()
-    cursor.close()
-    conn.close()
-
-
-create_tables()
-employers_data, vacancies = hh_api()
-insert_data(employers_data, vacancies)

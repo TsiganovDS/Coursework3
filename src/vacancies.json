@@ -1,0 +1,1218 @@
+[
+    {
+        "id": "118723909",
+        "title": "Менеджер-координатор учебного центра",
+        "employer_id": "849778",
+        "salary_from": 40000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118723909"
+    },
+    {
+        "id": "118531622",
+        "title": "Водитель-экспедитор",
+        "employer_id": "849778",
+        "salary_from": 45000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118531622"
+    },
+    {
+        "id": "118255195",
+        "title": "Продавец-консультант (Мегаполис)",
+        "employer_id": "849778",
+        "salary_from": 35000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118255195"
+    },
+    {
+        "id": "104035135",
+        "title": "Торговый представитель",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/104035135"
+    },
+    {
+        "id": "116701265",
+        "title": "Торговый представитель \"Сибирский цирюльник\" (Левый берег)",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/116701265"
+    },
+    {
+        "id": "118253606",
+        "title": "Водитель-экспедитор",
+        "employer_id": "849778",
+        "salary_from": 45000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118253606"
+    },
+    {
+        "id": "118309824",
+        "title": "Логист по товару (товаровед)",
+        "employer_id": "849778",
+        "salary_from": 50000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118309824"
+    },
+    {
+        "id": "118499193",
+        "title": "Торговый представитель",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118499193"
+    },
+    {
+        "id": "118370330",
+        "title": "Оператор отдела продаж",
+        "employer_id": "849778",
+        "salary_from": 35000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118370330"
+    },
+    {
+        "id": "97388886",
+        "title": "Торговый представитель",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/97388886"
+    },
+    {
+        "id": "117933350",
+        "title": "Менеджер по продажам (Торговый представитель)",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117933350"
+    },
+    {
+        "id": "117738599",
+        "title": "Торговый представитель",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117738599"
+    },
+    {
+        "id": "117621116",
+        "title": "Руководитель отдела продаж",
+        "employer_id": "849778",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117621116"
+    },
+    {
+        "id": "118637741",
+        "title": "Продавец -консультант (ул. Ватутина, 37)",
+        "employer_id": "849778",
+        "salary_from": 35000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118637741"
+    },
+    {
+        "id": "114970452",
+        "title": "Продавец-консультант (\"Сити Молл\", ул. Кирова 55)",
+        "employer_id": "849778",
+        "salary_from": 40000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/114970452"
+    },
+    {
+        "id": "104789963",
+        "title": "Кладовщик-грузчик",
+        "employer_id": "849778",
+        "salary_from": 43000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/104789963"
+    },
+    {
+        "id": "117738473",
+        "title": "Торговый представитель",
+        "employer_id": "849778",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117738473"
+    },
+    {
+        "id": "117414146",
+        "title": "Торговый представитель (молочная продукция)",
+        "employer_id": "849778",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117414146"
+    },
+    {
+        "id": "118126816",
+        "title": "Бухгалтер-материалист",
+        "employer_id": "849778",
+        "salary_from": 40000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118126816"
+    },
+    {
+        "id": "116899391",
+        "title": "Продавец-консультант (ТЦ \"Ника\")",
+        "employer_id": "849778",
+        "salary_from": 35000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/116899391"
+    },
+    {
+        "id": "118060710",
+        "title": "Водитель-экспедитор категории \"В\"",
+        "employer_id": "11188841",
+        "salary_from": 55000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118060710"
+    },
+    {
+        "id": "118685924",
+        "title": "Персональный водитель руководителя",
+        "employer_id": "5585972",
+        "salary_from": null,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/118685924"
+    },
+    {
+        "id": "118579822",
+        "title": "Специалист по учету деловых отходов",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/118579822"
+    },
+    {
+        "id": "117518797",
+        "title": "Травильщик",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117518797"
+    },
+    {
+        "id": "118579668",
+        "title": "Старший Мастер",
+        "employer_id": "5585972",
+        "salary_from": 90000,
+        "salary_to": 95000,
+        "url": "https://hh.ru/vacancy/118579668"
+    },
+    {
+        "id": "115291913",
+        "title": "Резчик металла на ножницах и прессах",
+        "employer_id": "5585972",
+        "salary_from": 60000,
+        "salary_to": 90000,
+        "url": "https://hh.ru/vacancy/115291913"
+    },
+    {
+        "id": "116002991",
+        "title": "Кладовщик",
+        "employer_id": "5585972",
+        "salary_from": null,
+        "salary_to": 48000,
+        "url": "https://hh.ru/vacancy/116002991"
+    },
+    {
+        "id": "115291940",
+        "title": "Сварщик на полуавтомат",
+        "employer_id": "5585972",
+        "salary_from": 60000,
+        "salary_to": 120000,
+        "url": "https://hh.ru/vacancy/115291940"
+    },
+    {
+        "id": "117454724",
+        "title": "Контролер ОТК",
+        "employer_id": "5585972",
+        "salary_from": 40000,
+        "salary_to": 50000,
+        "url": "https://hh.ru/vacancy/117454724"
+    },
+    {
+        "id": "115292063",
+        "title": "Слесарь-сантехник",
+        "employer_id": "5585972",
+        "salary_from": 65000,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/115292063"
+    },
+    {
+        "id": "115291910",
+        "title": "Слесарь-ремонтник",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/115291910"
+    },
+    {
+        "id": "115291916",
+        "title": "Инженер-конструктор",
+        "employer_id": "5585972",
+        "salary_from": 60000,
+        "salary_to": 100000,
+        "url": "https://hh.ru/vacancy/115291916"
+    },
+    {
+        "id": "118159924",
+        "title": "Мастер цеха СЗРО",
+        "employer_id": "5585972",
+        "salary_from": null,
+        "salary_to": 60000,
+        "url": "https://hh.ru/vacancy/118159924"
+    },
+    {
+        "id": "115290784",
+        "title": "Токарь-Фрезеровщик",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": 120000,
+        "url": "https://hh.ru/vacancy/115290784"
+    },
+    {
+        "id": "106331986",
+        "title": "Электромонтер (Электрик, Электрослесарь)",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/106331986"
+    },
+    {
+        "id": "115291904",
+        "title": "Электрогазосварщик по трубам",
+        "employer_id": "5585972",
+        "salary_from": 80000,
+        "salary_to": 90000,
+        "url": "https://hh.ru/vacancy/115291904"
+    },
+    {
+        "id": "115292069",
+        "title": "Стропальщик",
+        "employer_id": "5585972",
+        "salary_from": 50000,
+        "salary_to": 70000,
+        "url": "https://hh.ru/vacancy/115292069"
+    },
+    {
+        "id": "115346543",
+        "title": "Инженер-электроник",
+        "employer_id": "5585972",
+        "salary_from": 70000,
+        "salary_to": 100000,
+        "url": "https://hh.ru/vacancy/115346543"
+    },
+    {
+        "id": "115292042",
+        "title": "Оператор станка с ЧПУ",
+        "employer_id": "5585972",
+        "salary_from": 60000,
+        "salary_to": 80000,
+        "url": "https://hh.ru/vacancy/115292042"
+    },
+    {
+        "id": "118160490",
+        "title": "Начальник цеха СЗМК",
+        "employer_id": "5585972",
+        "salary_from": null,
+        "salary_to": 100000,
+        "url": "https://hh.ru/vacancy/118160490"
+    },
+    {
+        "id": "116871466",
+        "title": "Машинист козлового крана",
+        "employer_id": "5585972",
+        "salary_from": 49400,
+        "salary_to": 49400,
+        "url": "https://hh.ru/vacancy/116871466"
+    },
+    {
+        "id": "118596997",
+        "title": "Персональный водитель",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118596997"
+    },
+    {
+        "id": "118730386",
+        "title": "Руководитель отдела в управление недвижимости",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118730386"
+    },
+    {
+        "id": "117056359",
+        "title": "Младший специалист по документообороту",
+        "employer_id": "78638",
+        "salary_from": 50000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117056359"
+    },
+    {
+        "id": "118698864",
+        "title": "Заместитель руководителя департамента",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118698864"
+    },
+    {
+        "id": "118765233",
+        "title": "Продуктовый аналитик в Товарную платформу",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118765233"
+    },
+    {
+        "id": "118695517",
+        "title": "Руководитель проектов",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118695517"
+    },
+    {
+        "id": "118506101",
+        "title": "Product Manager в T‑Black",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118506101"
+    },
+    {
+        "id": "117677509",
+        "title": "Специалист по взаимодействию с блогерами",
+        "employer_id": "78638",
+        "salary_from": 80000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117677509"
+    },
+    {
+        "id": "118521166",
+        "title": "Офис-менеджер",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118521166"
+    },
+    {
+        "id": "118658535",
+        "title": "Менеджер спецпроектов и PR Школы Дизайна в Центральный университет",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118658535"
+    },
+    {
+        "id": "117685579",
+        "title": "People partner (Партнер по персоналу)",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117685579"
+    },
+    {
+        "id": "118210044",
+        "title": "Менеджер сопровождения партнерских проектов",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118210044"
+    },
+    {
+        "id": "118702141",
+        "title": "Специалист бэк офиса",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118702141"
+    },
+    {
+        "id": "118642068",
+        "title": "Системный аналитик",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118642068"
+    },
+    {
+        "id": "118335589",
+        "title": "Менеджер по закупкам",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118335589"
+    },
+    {
+        "id": "118521426",
+        "title": "Администратор VIP-офиса (Private T-L'Hermitage)",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118521426"
+    },
+    {
+        "id": "118549536",
+        "title": "Финансовый аналитик",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118549536"
+    },
+    {
+        "id": "118565071",
+        "title": "3D-дизайнер",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118565071"
+    },
+    {
+        "id": "110423666",
+        "title": "Product marketing manager",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/110423666"
+    },
+    {
+        "id": "118636540",
+        "title": "Ведущий юрисконсульт",
+        "employer_id": "78638",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118636540"
+    },
+    {
+        "id": "118695532",
+        "title": "Инженер-механик",
+        "employer_id": "4700573",
+        "salary_from": 86000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118695532"
+    },
+    {
+        "id": "117715728",
+        "title": "Электросварщик",
+        "employer_id": "4700573",
+        "salary_from": 65000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117715728"
+    },
+    {
+        "id": "118725119",
+        "title": "Инженер по нормированию труда",
+        "employer_id": "4700573",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118725119"
+    },
+    {
+        "id": "118695673",
+        "title": "Слесарь по ремонту",
+        "employer_id": "4700573",
+        "salary_from": 63000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118695673"
+    },
+    {
+        "id": "117020084",
+        "title": "Столяр",
+        "employer_id": "4700573",
+        "salary_from": 60000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117020084"
+    },
+    {
+        "id": "117013971",
+        "title": "Разнорабочий",
+        "employer_id": "4700573",
+        "salary_from": 47000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117013971"
+    },
+    {
+        "id": "117880893",
+        "title": "Инженер-проектировщик слаботочных систем",
+        "employer_id": "4700573",
+        "salary_from": 78000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117880893"
+    },
+    {
+        "id": "117013929",
+        "title": "Маляр по металлу",
+        "employer_id": "4700573",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117013929"
+    },
+    {
+        "id": "117020307",
+        "title": "Инженер-конструктор",
+        "employer_id": "4700573",
+        "salary_from": 80000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117020307"
+    },
+    {
+        "id": "115480155",
+        "title": "Дежурный электрик",
+        "employer_id": "4700573",
+        "salary_from": 58000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/115480155"
+    },
+    {
+        "id": "118740444",
+        "title": "Специалист поддержки пользователей (Otello)",
+        "employer_id": "64174",
+        "salary_from": 50000,
+        "salary_to": 77000,
+        "url": "https://hh.ru/vacancy/118740444"
+    },
+    {
+        "id": "118436280",
+        "title": "Начинающий аналитик",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": 65000,
+        "url": "https://hh.ru/vacancy/118436280"
+    },
+    {
+        "id": "115466842",
+        "title": "Специалист службы поддержки пользователей (сервис Отелло)",
+        "employer_id": "64174",
+        "salary_from": 50000,
+        "salary_to": 65000,
+        "url": "https://hh.ru/vacancy/115466842"
+    },
+    {
+        "id": "118767362",
+        "title": "Менеджер продукта Social",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118767362"
+    },
+    {
+        "id": "118697562",
+        "title": "Специалист поддержки отелей (Личный кабинет)",
+        "employer_id": "64174",
+        "salary_from": 50000,
+        "salary_to": 65000,
+        "url": "https://hh.ru/vacancy/118697562"
+    },
+    {
+        "id": "118647701",
+        "title": "Специалист по корпоративной культуре",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118647701"
+    },
+    {
+        "id": "118566385",
+        "title": "HR менеджер",
+        "employer_id": "64174",
+        "salary_from": 82000,
+        "salary_to": 86000,
+        "url": "https://hh.ru/vacancy/118566385"
+    },
+    {
+        "id": "118699316",
+        "title": "Менеджер по работе с клиентами (Москва)",
+        "employer_id": "64174",
+        "salary_from": 50000,
+        "salary_to": 70000,
+        "url": "https://hh.ru/vacancy/118699316"
+    },
+    {
+        "id": "118718991",
+        "title": "Fullstack аналитик в команду Delo",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118718991"
+    },
+    {
+        "id": "117390571",
+        "title": "Аналитик данных в HR",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117390571"
+    },
+    {
+        "id": "118527757",
+        "title": "Менеджер по продажам",
+        "employer_id": "64174",
+        "salary_from": 75000,
+        "salary_to": 150000,
+        "url": "https://hh.ru/vacancy/118527757"
+    },
+    {
+        "id": "118696634",
+        "title": "Системный аналитик в команду сбора данных для B2B продуктов",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118696634"
+    },
+    {
+        "id": "118705184",
+        "title": "Senior QA Mobile (Транспорт)",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118705184"
+    },
+    {
+        "id": "117914109",
+        "title": "Менеджер проектов 2ГИС Платформа",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117914109"
+    },
+    {
+        "id": "118681209",
+        "title": "Менеджер по работе с клиентами (присоединяйся к команде 2ГИС)",
+        "employer_id": "64174",
+        "salary_from": 50000,
+        "salary_to": 65000,
+        "url": "https://hh.ru/vacancy/118681209"
+    },
+    {
+        "id": "89590208",
+        "title": "Senior Backend Engineer в команду Отелло",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": 550000,
+        "url": "https://hh.ru/vacancy/89590208"
+    },
+    {
+        "id": "116831264",
+        "title": "Системный администратор (Сан-Сити)",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/116831264"
+    },
+    {
+        "id": "117569473",
+        "title": "Менеджер продукта Выбор мест",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117569473"
+    },
+    {
+        "id": "118592345",
+        "title": "Менеджер по продажам",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": 150000,
+        "url": "https://hh.ru/vacancy/118592345"
+    },
+    {
+        "id": "118283432",
+        "title": "Координатор",
+        "employer_id": "64174",
+        "salary_from": null,
+        "salary_to": 50000,
+        "url": "https://hh.ru/vacancy/118283432"
+    },
+    {
+        "id": "118734083",
+        "title": "Помощник бухгалтера",
+        "employer_id": "2071925",
+        "salary_from": 30000,
+        "salary_to": 40000,
+        "url": "https://hh.ru/vacancy/118734083"
+    },
+    {
+        "id": "116546811",
+        "title": "SMM-маркетолог",
+        "employer_id": "2071925",
+        "salary_from": 65000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/116546811"
+    },
+    {
+        "id": "117982919",
+        "title": "Пиццамейкер",
+        "employer_id": "2071925",
+        "salary_from": 43000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117982919"
+    },
+    {
+        "id": "118284420",
+        "title": "Специалист по кадровому делопроизводству",
+        "employer_id": "2071925",
+        "salary_from": 60000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118284420"
+    },
+    {
+        "id": "118661138",
+        "title": "Маркетолог сети кофеен \"Дринкит\"",
+        "employer_id": "2071925",
+        "salary_from": 80000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118661138"
+    },
+    {
+        "id": "117434710",
+        "title": "Менеджер по развитию персонала",
+        "employer_id": "2071925",
+        "salary_from": 100000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117434710"
+    },
+    {
+        "id": "118587921",
+        "title": "Старший бариста сети кофеен \"Дринкит\"",
+        "employer_id": "2071925",
+        "salary_from": 50000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118587921"
+    },
+    {
+        "id": "117330470",
+        "title": "Менеджер пиццерии",
+        "employer_id": "2071925",
+        "salary_from": 70000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117330470"
+    },
+    {
+        "id": "117718737",
+        "title": "Работник мануфактуры Дринкит",
+        "employer_id": "2071925",
+        "salary_from": 45000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117718737"
+    },
+    {
+        "id": "117235019",
+        "title": "Маркетолог",
+        "employer_id": "2071925",
+        "salary_from": 80000,
+        "salary_to": 100000,
+        "url": "https://hh.ru/vacancy/117235019"
+    },
+    {
+        "id": "118752377",
+        "title": "Повар",
+        "employer_id": "2071925",
+        "salary_from": 43000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118752377"
+    },
+    {
+        "id": "117821993",
+        "title": "Управляющий пиццерией",
+        "employer_id": "2071925",
+        "salary_from": 90000,
+        "salary_to": 110000,
+        "url": "https://hh.ru/vacancy/117821993"
+    },
+    {
+        "id": "117675026",
+        "title": "Автокурьер",
+        "employer_id": "2071925",
+        "salary_from": 80000,
+        "salary_to": 125000,
+        "url": "https://hh.ru/vacancy/117675026"
+    },
+    {
+        "id": "117722725",
+        "title": "Сотрудник мануфактуры",
+        "employer_id": "2071925",
+        "salary_from": 45000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117722725"
+    },
+    {
+        "id": "117434574",
+        "title": "Тренинг-менеджер",
+        "employer_id": "2071925",
+        "salary_from": 100000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117434574"
+    },
+    {
+        "id": "117256290",
+        "title": "Менеджер по обучению",
+        "employer_id": "2071925",
+        "salary_from": 100000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117256290"
+    },
+    {
+        "id": "117674531",
+        "title": "Автокурьер",
+        "employer_id": "2071925",
+        "salary_from": 80000,
+        "salary_to": 125000,
+        "url": "https://hh.ru/vacancy/117674531"
+    },
+    {
+        "id": "116002231",
+        "title": "Менеджер смены",
+        "employer_id": "2071925",
+        "salary_from": 65000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/116002231"
+    },
+    {
+        "id": "117983000",
+        "title": "Повар",
+        "employer_id": "2071925",
+        "salary_from": 43000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117983000"
+    },
+    {
+        "id": "118729952",
+        "title": "Пиццамейкер",
+        "employer_id": "2071925",
+        "salary_from": 43000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118729952"
+    },
+    {
+        "id": "118295445",
+        "title": "Менеджер по логистике",
+        "employer_id": "1017128",
+        "salary_from": 50000,
+        "salary_to": 200000,
+        "url": "https://hh.ru/vacancy/118295445"
+    },
+    {
+        "id": "118714440",
+        "title": "Помощник руководителя",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118714440"
+    },
+    {
+        "id": "118453221",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453221"
+    },
+    {
+        "id": "118453220",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453220"
+    },
+    {
+        "id": "118453222",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453222"
+    },
+    {
+        "id": "118648806",
+        "title": "Руководитель направления по капитальному строительству",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118648806"
+    },
+    {
+        "id": "118453223",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453223"
+    },
+    {
+        "id": "118775245",
+        "title": "Специалист по договорной работе",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118775245"
+    },
+    {
+        "id": "118453219",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453219"
+    },
+    {
+        "id": "118453225",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453225"
+    },
+    {
+        "id": "118716875",
+        "title": "Руководитель направления по транспорту",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118716875"
+    },
+    {
+        "id": "118592709",
+        "title": "Руководитель проектов по развитию бизнеса в Африке (разведка и добыча)",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118592709"
+    },
+    {
+        "id": "118768948",
+        "title": "Специалист по документообороту 49111",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118768948"
+    },
+    {
+        "id": "118453224",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453224"
+    },
+    {
+        "id": "118724082",
+        "title": "Руководитель направления по обеспечению",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118724082"
+    },
+    {
+        "id": "118647195",
+        "title": "Специалист по технической документации",
+        "employer_id": "39305",
+        "salary_from": 90000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118647195"
+    },
+    {
+        "id": "118453218",
+        "title": "Мастер",
+        "employer_id": "39305",
+        "salary_from": 182000,
+        "salary_to": 182000,
+        "url": "https://hh.ru/vacancy/118453218"
+    },
+    {
+        "id": "118770084",
+        "title": "Внутренний аудитор",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118770084"
+    },
+    {
+        "id": "118734004",
+        "title": "Специалист по договорам аренды",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118734004"
+    },
+    {
+        "id": "111060871",
+        "title": "Офисный водитель",
+        "employer_id": "39305",
+        "salary_from": 87000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/111060871"
+    },
+    {
+        "id": "118773845",
+        "title": "Механик по эксплуатации транспортных средств",
+        "employer_id": "39305",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118773845"
+    },
+    {
+        "id": "118722702",
+        "title": "Водитель с функциями ассистента",
+        "employer_id": "80",
+        "salary_from": 200000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118722702"
+    },
+    {
+        "id": "118758632",
+        "title": "Старший эксперт по экономической безопасности (Проверка корпоративных клиентов)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118758632"
+    },
+    {
+        "id": "118747445",
+        "title": "Руководитель проектов",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118747445"
+    },
+    {
+        "id": "118760386",
+        "title": "Начальник отдела (качество сервиса)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118760386"
+    },
+    {
+        "id": "118736536",
+        "title": "Директор по аналитике (CDO)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118736536"
+    },
+    {
+        "id": "117934451",
+        "title": "Специалист дистанционного контакт-центра в чат",
+        "employer_id": "80",
+        "salary_from": 25000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117934451"
+    },
+    {
+        "id": "117934384",
+        "title": "Специалист дистанционного контакт-центра в чат",
+        "employer_id": "80",
+        "salary_from": 25000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117934384"
+    },
+    {
+        "id": "118735339",
+        "title": "Системный аналитик",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118735339"
+    },
+    {
+        "id": "117934415",
+        "title": "Специалист дистанционного контакт-центра в чат",
+        "employer_id": "80",
+        "salary_from": 25000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117934415"
+    },
+    {
+        "id": "117934532",
+        "title": "Специалист дистанционного контакт-центра в чат",
+        "employer_id": "80",
+        "salary_from": 25000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117934532"
+    },
+    {
+        "id": "118735934",
+        "title": "Руководитель проектов стратегического офиса",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118735934"
+    },
+    {
+        "id": "117934276",
+        "title": "Специалист контакт-центра в чат",
+        "employer_id": "80",
+        "salary_from": 25000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117934276"
+    },
+    {
+        "id": "118701960",
+        "title": "Ассистент",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118701960"
+    },
+    {
+        "id": "118769443",
+        "title": "Проектный бизнес-аналитик (процессы выдачи кредита)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118769443"
+    },
+    {
+        "id": "118763292",
+        "title": "Ведущий эксперт группы сопровождения операционных рисков",
+        "employer_id": "80",
+        "salary_from": 100000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118763292"
+    },
+    {
+        "id": "118764744",
+        "title": "Отраслевой аналитик",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118764744"
+    },
+    {
+        "id": "118370703",
+        "title": "Представитель банка (Без поиска клиентов)",
+        "employer_id": "80",
+        "salary_from": 130000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118370703"
+    },
+    {
+        "id": "117062764",
+        "title": "Специалист поддержки клиентов (2/2)",
+        "employer_id": "80",
+        "salary_from": 62000,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/117062764"
+    },
+    {
+        "id": "118736613",
+        "title": "Product Lead (Стрим OMS)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118736613"
+    },
+    {
+        "id": "118339816",
+        "title": "Дизайнер цифровых продуктов (Middle+ / Senior)",
+        "employer_id": "80",
+        "salary_from": null,
+        "salary_to": null,
+        "url": "https://hh.ru/vacancy/118339816"
+    }
+]

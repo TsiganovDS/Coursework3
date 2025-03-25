@@ -12,7 +12,7 @@ def hh_api():
         "Додо Пицца",
         "Группа компаний РТС",
         "Газпром нефть",
-        "Альфа-банк"
+        "Альфа-банк",
     ]
 
     employers_data = []
@@ -36,9 +36,10 @@ def hh_api():
     vacancies = []
 
     for employer in employers_data:
-        response = requests.get(f'https://api.hh.ru/vacancies?employer_id={employer["id"]}')
+        response = requests.get(
+            f'https://api.hh.ru/vacancies?employer_id={employer["id"]}'
+        )
         if response.status_code == 200:
             data = response.json()
             vacancies.extend(data["items"])
     return employers_data, vacancies
-

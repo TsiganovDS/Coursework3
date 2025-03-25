@@ -2,6 +2,8 @@ import json
 
 import psycopg2
 
+from src.vacancies import DB_CONFIG
+
 
 class DBManager:
     def __init__(self, dbname, user, password, host):
@@ -9,10 +11,7 @@ class DBManager:
         self.password = password
         self.user = user
         self.dbname = dbname
-        self.conn = psycopg2.connect(
-        dbname="hh.ru", user="postgres", password="1234", host="localhost"
-    )
-
+        self.conn = psycopg2.connect(**DB_CONFIG)
 
     def get_companies_and_vacancies_count(self):
         """Получает список всех компаний и количество вакансий у каждой компании."""
@@ -101,11 +100,5 @@ class DBManager:
 
 
 db_manager = DBManager(
-        dbname="hh.ru", user="postgres", password="1234", host="localhost"
-    )
-
-print(db_manager.get_avg_salary())
-print(db_manager.get_all_vacancies())
-print(db_manager.get_companies_and_vacancies_count())
-print(db_manager.get_vacancies_with_higher_salary())
-print(db_manager.get_vacancies_with_keyword("Продавец"))
+    dbname="hh.ru", user="postgres", password="1234", host="localhost"
+)
