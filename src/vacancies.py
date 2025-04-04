@@ -4,7 +4,7 @@ import os
 import psycopg2
 from dotenv import load_dotenv
 
-from src.api import hh_api
+from src.api import HHAPI
 
 load_dotenv("../.env")
 DB_CONFIG = {
@@ -14,8 +14,7 @@ DB_CONFIG = {
     "host": os.getenv("DB_HOST"),
 }
 
-
-def drop_tables():
+def drop_tables() -> None:
     """Функция удаления таблиц"""
     with psycopg2.connect(**DB_CONFIG) as conn:
         with conn.cursor() as cursor:
@@ -26,7 +25,7 @@ def drop_tables():
             )
 
 
-def create_tables():
+def create_tables() -> None:
     """Функция создания таблиц"""
     drop_tables()
     with psycopg2.connect(**DB_CONFIG) as conn:
@@ -55,7 +54,7 @@ def create_tables():
             )
 
 
-def insert_data(employers_data, vacancies):
+def insert_data(employers_data: list[dict], vacancies: list[dict]) -> None:
     """Функция заполнения таблиц"""
     with psycopg2.connect(**DB_CONFIG) as conn:
         with conn.cursor() as cursor:
@@ -65,7 +64,7 @@ def insert_data(employers_data, vacancies):
                     "VALUES (%s, %s, %s) "
                     "ON CONFLICT (id) DO NOTHING "
                     "RETURNING id",
-                    (employer["id"], employer["name"], employer["url"]),
+                    (employer["id"], employer["name"], employer["alternate_url"]),
                 )
                 employer_id = employer["id"]
 
@@ -83,18 +82,31 @@ def insert_data(employers_data, vacancies):
                             employer_id,
                             salary_data.get("from"),
                             salary_data.get("to"),
-                            vacancy["alternate_url"],
+                            vacancy["url"],
                         ),
                     )
             conn.commit()
 
 
-def save_to_json():
+def save_to_json() -> None:
     """Функция записи в JSON-файл"""
-    employers_data, vacancies = hh_api()
+    companies = [
+        "Сибирский цирюльник",
+        "Нефтяночка42",
+        "СЗМК",
+        "Т-Банк",
+        "ТехноОпт",
+        "2ГИС",
+        "Додо Пицца",
+        "Группа компаний РТС",
+        "Газпром нефть",
+        "Альфа-банк",
+    ]
+    api = HHAPI(companies)
+    employers_data, vacancies = api.hh_api()
     with open("employers.json", "w", encoding="utf-8") as f:
         employers_to_save = [
-            {"id": emp["id"], "name": emp["name"], "url": emp["url"]}
+            {"id": emp["id"], "name": emp["name"], "url": emp.get("url", "N/A")}
             for emp in employers_data
             if emp["id"] is not None
         ]
@@ -110,7 +122,7 @@ def save_to_json():
                     "employer_id": vac["employer"]["id"],
                     "salary_from": (vac.get("salary") or {}).get("from"),
                     "salary_to": (vac.get("salary") or {}).get("to"),
-                    "url": vac["alternate_url"],
+                    "url": vac["url"],
                 }
             )
         json.dump(vacancies_to_save, f, indent=4, ensure_ascii=False)
