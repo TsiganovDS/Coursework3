@@ -3,7 +3,7 @@ from src.dbmanager import DBManager
 from src.vacancies import DB_CONFIG, create_tables, insert_data
 
 
-def user_interaction():
+def user_interaction() -> None:
     """Интерактивное меню для работы с базой вакансий"""
 
     db = DBManager(**DB_CONFIG)
