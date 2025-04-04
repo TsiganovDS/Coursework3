@@ -1,4 +1,5 @@
 import json
+from typing import List, Tuple, Any
 
 import psycopg2
 
@@ -13,7 +14,7 @@ class DBManager:
         self.dbname = dbname
         self.conn = psycopg2.connect(**DB_CONFIG)
 
-    def get_companies_and_vacancies_count(self):
+    def get_companies_and_vacancies_count(self) -> list[tuple[Any, ...]]:
         """Получает список всех компаний и количество вакансий у каждой компании."""
         with self.conn.cursor() as cursor:
             cursor.execute(
@@ -26,7 +27,7 @@ class DBManager:
             )
             return cursor.fetchall()
 
-    def get_all_vacancies(self):
+    def get_all_vacancies(self) -> str:
         """Получает список всех вакансий с указанием названия компании,
         названия вакансии и зарплаты и ссылки на вакансию."""
         with self.conn.cursor() as cursor:
@@ -48,7 +49,7 @@ class DBManager:
 
             return json.dumps(result, ensure_ascii=False, indent=4)
 
-    def get_avg_salary(self):
+    def get_avg_salary(self) -> float:
         """Считает среднюю зарплату с учётом всех возможных вариантов указания зарплат."""
         with self.conn.cursor() as cursor:
             cursor.execute(
@@ -66,7 +67,7 @@ class DBManager:
             result = cursor.fetchone()[0]
             return round(result, 2) if result else 0
 
-    def get_vacancies_with_higher_salary(self):
+    def get_vacancies_with_higher_salary(self) -> list[tuple[Any, ...]]:
         """Получает список всех вакансий, у которых зарплата выше средней по всем вакансиям."""
         avg_salary = self.get_avg_salary()
         with self.conn.cursor() as cursor:
@@ -81,7 +82,7 @@ class DBManager:
             )
             return cursor.fetchall()
 
-    def get_vacancies_with_keyword(self, keyword):
+    def get_vacancies_with_keyword(self, keyword: str) -> list[tuple[Any, ...]]:
         """Получает список всех вакансий, в названии которых содержатся переданные в метод слова."""
         with self.conn.cursor() as cursor:
             cursor.execute(
@@ -95,10 +96,5 @@ class DBManager:
             )
             return cursor.fetchall()
 
-    def close(self):
+    def close(self) -> None:
         self.conn.close()
-
-
-db_manager = DBManager(
-    dbname="hh.ru", user="postgres", password="1234", host="localhost"
-)
